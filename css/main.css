@@ -1,0 +1,49 @@
+		html,body{
+			padding: 0;margin:0;
+		}
+		#canvas{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-60%);
+			z-index: -1;
+			
+		}
+		
+		.progressRow{
+		   justify-content: center;
+		}
+		.titleRow{
+			justify-content: center;
+			margin-top: 40px;
+			margin-bottom: 30px;
+		}		
+
+		
+		#countries{
+			transform: translate(-15%,25%);
+		}
+		
+		.dis{
+			display:none;
+		}
+
+
+    .progressPrgph{
+    	margin-top: 2px;
+	    margin-bottom: 35px;
+    }
+
+    .progressPrgph.lastStat{
+    	margin-top: -7px;
+    }
+
+     .progressPrgph.prevlastStat{
+    	margin-top: -2px;
+    }
+
+
+   .progressPrgph.firstStat{
+    	margin-top: 3px;
+    }
+    
