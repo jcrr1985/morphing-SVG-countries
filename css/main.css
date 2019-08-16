@@ -47,7 +47,23 @@
     	margin-top: 3px;
     }
     
-@keyframes rainDown {
-  from {top: -10%;}
-  to {top:50%;}
+@keyframes countriesListAnim {
+  0% {top: -20%;
+  opacity:0;}
+   100% {top:30%;
+   opacity:1;}
+
+}
+
+
+
+#countries{
+	position:absolute;
+	margin-left: 50px; margin-top: 50px; font-weight: bold; 
+    line-height: 50px;
+	animation: countriesListAnim 1.5s ease-in-out forwards ;
+}
+
+#countries li{
+	text-transform:uppercase;
 }
